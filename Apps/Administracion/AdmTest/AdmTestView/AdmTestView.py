@@ -12,5 +12,5 @@ class  TestView(generics.ListAPIView):
        Elaborado por: CRoman 13-05-23
     """
     def get(self,request):
-            return Response(retorno(status.HTTP_200_OK, 1, 'Test realizado con exito',{'activo':True}, 1 ))
+            return True
         
